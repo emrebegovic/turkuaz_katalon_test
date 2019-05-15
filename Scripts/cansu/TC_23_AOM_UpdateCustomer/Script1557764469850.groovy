@@ -13,8 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('TC_12_UpdateBillingAccountStatus_OK'), [('billAcctID') : GlobalVariable.billAcctID], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('cansu/TC_01_CreateCustomer_OK'), [('custID') : GlobalVariable.custID], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('TC_16_InquireBillingAccount'), [(GlobalVariable.custID) : GlobalVariable.custID, (GlobalVariable.billAcctID) : GlobalVariable.billAcctID
-        , (GlobalVariable.baStatus) : GlobalVariable.baStatus], FailureHandling.STOP_ON_FAILURE)
+response3 = WS.sendRequest(findTestObject('Customer/UpdateCustomer', [('custID') : '', ('segmentCode') : '', ('updateCustomerDate') : ''
+            , ('customerType') : '', ('customerName') : '', ('customerStatus') : '']))
 

@@ -14,7 +14,7 @@
       <guid>3cf81c8c-590c-4253-b6de-2a2eb1a8095d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_01_CreateCustomer_OK</testCaseId>
+      <testCaseId>Test Cases/cansu/TC_01_CreateCustomer_OK</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>adb5158e-2eac-446a-a9e8-c278696d1be1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_02_CreateBillingAccount_OK</testCaseId>
+      <testCaseId>Test Cases/cansu/TC_02_CreateBillingAccount_OK</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
