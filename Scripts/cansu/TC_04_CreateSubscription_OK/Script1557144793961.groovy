@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('TC_03_CreateCompositeCustomer_OK'), [('custID') : GlobalVariable.custID, ('billAcctID') : GlobalVariable.billAcctID], 
+WebUI.callTestCase(findTestCase('cansu/TC_03_CreateCompositeCustomer_OK'), [('custID') : GlobalVariable.custID, ('billAcctID') : GlobalVariable.billAcctID], 
     FailureHandling.STOP_ON_FAILURE)
 
 GlobalVariable.subID = CustomKeywords.'com.turkuaz.test.pkg.getTransactions.getRandomID'()

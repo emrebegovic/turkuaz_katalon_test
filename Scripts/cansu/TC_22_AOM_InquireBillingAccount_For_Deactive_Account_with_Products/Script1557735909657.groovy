@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('TC_11_Create Account and New Sales Order'), [('imsi') : GlobalVariable.imsi, ('msisdn') : GlobalVariable.msisdn
+WebUI.callTestCase(findTestCase('cansu/TC_11_Create Account and New Sales Order'), [('imsi') : GlobalVariable.imsi, ('msisdn') : GlobalVariable.msisdn
         , ('custID') : GlobalVariable.custID, ('voiceUsageProductID') : GlobalVariable.voiceUsageProductID, ('voiceFUProductID') : GlobalVariable.voiceFUProductID
         , ('smsUsageProductID') : GlobalVariable.smsUsageProductID, ('dataUsageProductID') : GlobalVariable.dataUsageProductID
         , ('billAcctID') : GlobalVariable.billAcctID, ('subID') : GlobalVariable.subID], FailureHandling.STOP_ON_FAILURE)
