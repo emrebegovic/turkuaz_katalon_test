@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_14_AOM_CreateBillingAccount_BC2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfc53204-9047-4037-9547-b35bba5ba7e4</testCaseGuid>
+</TestCaseEntity>

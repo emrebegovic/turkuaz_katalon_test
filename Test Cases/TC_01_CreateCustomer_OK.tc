@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_01_CreateCustomer_OK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd14792b-a4dc-4a12-a6c7-84c26d781758</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.custID</defaultValue>
+      <description></description>
+      <id>9a3419ff-05c5-4849-adae-8ac6ab067e4c</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>BA oluşur.Statusu A dır.
+Statusu D yapılır.
+Inquire ile bilgileri kontrol edilir.</description>
+   <name>TC_15_CreateBA_UpdateBAStatus_InquireBA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03ffda78-c72a-4587-aaa5-d01d533371b5</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.custID</defaultValue>
+      <description></description>
+      <id>cd28a3f4-6a17-4a06-82d2-038d28f26b38</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.billAcctID</defaultValue>
+      <description></description>
+      <id>4038a558-8ca1-4e77-9763-8c578af7ee90</id>
+      <masked>false</masked>
+      <name>billAcctID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.baStatus</defaultValue>
+      <description></description>
+      <id>a452eebc-48dd-4d13-8963-000a9f18b97f</id>
+      <masked>false</masked>
+      <name>baStatus</name>
+   </variable>
+</TestCaseEntity>

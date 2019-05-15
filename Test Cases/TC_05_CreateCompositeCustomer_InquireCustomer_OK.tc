@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_05_CreateCompositeCustomer_InquireCustomer_OK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a5d219f-356c-4c65-9788-67681144991c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.custID</defaultValue>
+      <description></description>
+      <id>f0947d9e-35c9-48c1-aa6a-917467cdee8a</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.billAcctID</defaultValue>
+      <description></description>
+      <id>9e086f91-97da-4a63-b429-552fb48e22fd</id>
+      <masked>false</masked>
+      <name>billAcctID</name>
+   </variable>
+</TestCaseEntity>

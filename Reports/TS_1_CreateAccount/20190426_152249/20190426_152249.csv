@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_1_CreateAccount,,,2019-04-26 15:22:51,2019-04-26 15:22:53,"1,770s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 15:22:51,2019-04-26 15:22:52,"1,239s",ERROR
+Start listener action : sampleBeforeTestCase,,,2019-04-26 15:22:52,2019-04-26 15:22:52,"0,297s",PASSED
+"println("" ...TC_1 Scriptteyiz... custID = "" + custID)",,,2019-04-26 15:22:52,2019-04-26 15:22:52,"0,015s",ERROR
+Start listener action : sampleAfterTestCase,,,2019-04-26 15:22:52,2019-04-26 15:22:52,"0,003s",PASSED

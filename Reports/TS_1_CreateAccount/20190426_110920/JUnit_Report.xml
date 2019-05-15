@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_1_CreateAccount" time="3" tests="1" failures="0" errors="0">
+   <testsuite name="TS_1_CreateAccount" tests="1" failures="0" errors="0" time="3" timestamp="2019-04-26 11:09:23" hostname="CANSU - 172.30.9.166" id="Test Suites/TS_1_CreateAccount">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\CANSU\\Katalon Studio\\Turkuaz_Test_Project\\Reports\\TS_1_CreateAccount\\20190426_110920"/>
+         <property name="logFiles" value="C:\\Users\\CANSU\\Katalon Studio\\Turkuaz_Test_Project\\Reports\\TS_1_CreateAccount\\20190426_110920\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="CANSU - 172.30.9.166"/>
+         <property name="hostAddress" value="172.30.9.166"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TC_1_CreateAccount" classname="Test Cases/TC_1_CreateAccount" status="PASSED">
+         <system-out><![CDATA[2019-04-26 11:09:23 - [TEST_CASE][PASSED] - Test Cases/TC_1_CreateAccount: Test Cases/TC_1_CreateAccount
+
+2019-04-26 11:09:23 - [TEST_STEP][PASSED] - println(" ... custID = " + custID): null
+
+2019-04-26 11:09:23 - [TEST_STEP][PASSED] - responseCust = sendRequest(findTestObject("Customer/CreateCustomer", ["custID":custID])): Send request successfully
+
+2019-04-26 11:09:26 - [MESSAGE][INFO] - HAR: C:\Users\CANSU\Katalon Studio\Turkuaz_Test_Project\Reports\TS_1_CreateAccount\20190426_110920\requests\main\0.har
+
+2019-04-26 11:09:26 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-26 11:09:23 - [TEST_SUITE][PASSED] - TS_1_CreateAccount: Test Cases/TC_1_CreateAccount]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

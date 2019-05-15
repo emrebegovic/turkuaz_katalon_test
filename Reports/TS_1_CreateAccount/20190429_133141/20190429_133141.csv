@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_1_CreateAccount,,,2019-04-29 13:31:42,2019-04-29 13:31:48,"5,748s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-29 13:31:42,2019-04-29 13:31:48,"5,149s",PASSED
+Start listener action : sampleBeforeTestCase,,,2019-04-29 13:31:43,2019-04-29 13:31:44,"0,362s",PASSED
+"println("" ...TC_1 Scriptteyiz... eski custID = "" + custID)",,,2019-04-29 13:31:44,2019-04-29 13:31:44,"0,003s",PASSED
+"response1 = sendRequest(findTestObject(""Customer/CreateCustomer"", [""custID"":custID]))",,,2019-04-29 13:31:44,2019-04-29 13:31:45,"1,703s",PASSED
+"println("" ...TC_1 Scriptteyiz... GlobalVariable.custID = "" + custID)",,,2019-04-29 13:31:45,2019-04-29 13:31:45,"0,001s",PASSED
+xml1 = responseBodyContent,,,2019-04-29 13:31:45,2019-04-29 13:31:46,"0,108s",PASSED
+dataValue = XmlSlurper().parseText(xml1),,,2019-04-29 13:31:46,2019-04-29 13:31:46,"0,017s",PASSED
+custID1 = childNodes().next(),,,2019-04-29 13:31:46,2019-04-29 13:31:46,"0,005s",PASSED
+custID = custID1,,,2019-04-29 13:31:46,2019-04-29 13:31:46,"0,001s",PASSED
+delay(2),,,2019-04-29 13:31:46,2019-04-29 13:31:48,"2,028s",PASSED
+Start listener action : sampleAfterTestCase,,,2019-04-29 13:31:48,2019-04-29 13:31:48,"0,003s",PASSED
+,,,,,,
+Test Cases/TC_2_CreateBillingAccount,,,2019-04-29 13:31:48,2019-04-29 13:31:48,"0,359s",ERROR
+Start listener action : sampleBeforeTestCase,,,2019-04-29 13:31:48,2019-04-29 13:31:48,"0,024s",ERROR
+"response2 = sendRequest(findTestObject(""BillingAccount/CreateBillingAccount"", [""billAcctID"":billAcctID]))",,,2019-04-29 13:31:48,2019-04-29 13:31:48,"0,165s",PASSED
+"println(""TC2 Scriptteyiz:  custID"" + custID)",,,2019-04-29 13:31:48,2019-04-29 13:31:48,"0,001s",PASSED
+xml2 = responseBodyContent,,,2019-04-29 13:31:48,2019-04-29 13:31:48,"0,009s",PASSED
+"println(""TC2 Scriptteyiz:  custID"" + custID)",,,2019-04-29 13:31:48,2019-04-29 13:31:48,"0,001s",PASSED
+dataValue2 = XmlSlurper().parseText(xml2),,,2019-04-29 13:31:48,2019-04-29 13:31:48,"0,014s",ERROR
+Start listener action : sampleAfterTestCase,,,2019-04-29 13:31:48,2019-04-29 13:31:48,"0,002s",PASSED

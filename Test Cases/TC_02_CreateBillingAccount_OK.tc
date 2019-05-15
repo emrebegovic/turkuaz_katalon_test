@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02_CreateBillingAccount_OK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82dcc955-de64-46eb-a6d0-68a69c38163a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.billAcctID</defaultValue>
+      <description></description>
+      <id>4698b818-4c07-4694-bee4-8f56395825f4</id>
+      <masked>false</masked>
+      <name>billAcctID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.custID</defaultValue>
+      <description></description>
+      <id>c0c45fab-8439-4167-ba39-52402db315d8</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+</TestCaseEntity>

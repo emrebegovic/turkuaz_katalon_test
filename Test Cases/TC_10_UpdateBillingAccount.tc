@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_10_UpdateBillingAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc7d43d0-d480-497f-9927-9e750614fb8e</testCaseGuid>
+</TestCaseEntity>

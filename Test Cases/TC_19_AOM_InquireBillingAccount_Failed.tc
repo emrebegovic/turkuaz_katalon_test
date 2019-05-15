@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_19_AOM_InquireBillingAccount_Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18d07df7-4a07-4c8c-b2ba-89565acfa0be</testCaseGuid>
+   <variable>
+      <defaultValue>'1850240'</defaultValue>
+      <description></description>
+      <id>71df926b-6dec-400b-b06e-f4207606d40c</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.billAcctID</defaultValue>
+      <description></description>
+      <id>5349b78c-9ae4-4107-948c-151be40580ef</id>
+      <masked>false</masked>
+      <name>billAcctID</name>
+   </variable>
+</TestCaseEntity>

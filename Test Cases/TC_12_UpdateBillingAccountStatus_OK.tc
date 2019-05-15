@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_12_UpdateBillingAccountStatus_OK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8602ff21-4262-41a3-87c9-75c42ce2a0b3</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.billAcctID</defaultValue>
+      <description></description>
+      <id>89cff0f1-552e-4f8d-875c-04be445e51b6</id>
+      <masked>false</masked>
+      <name>billAcctID</name>
+   </variable>
+</TestCaseEntity>

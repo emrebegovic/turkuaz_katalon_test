@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_17_AOM_CreateBillingAccount_BC1_Parent_Relation_ID1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>046187e6-0be4-45a9-bd45-826f23795e8c</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.custID</defaultValue>
+      <description></description>
+      <id>2fff4356-28b7-4d4f-9bcb-f9e83b41bed9</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.billcycle</defaultValue>
+      <description></description>
+      <id>e2133351-07bb-4d7f-96f1-bb31eb4ca0c2</id>
+      <masked>false</masked>
+      <name>billcycle1</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.billAcctID</defaultValue>
+      <description></description>
+      <id>7dedff0c-8a2d-4a60-bbde-3ce99b977946</id>
+      <masked>false</masked>
+      <name>billAcctID</name>
+   </variable>
+</TestCaseEntity>

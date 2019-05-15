@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_27_AOM_UpdateSubscriptionPlanCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5921b325-ba54-4f7c-9590-84bf643c5b0e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.subID</defaultValue>
+      <description></description>
+      <id>0a6d2392-2be0-46df-8eff-2b3628c71b7e</id>
+      <masked>false</masked>
+      <name>subID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.subPlanCode</defaultValue>
+      <description></description>
+      <id>0e14c7b4-eb4a-4fcf-8ddd-a4891445c26b</id>
+      <masked>false</masked>
+      <name>subPlanCode</name>
+   </variable>
+</TestCaseEntity>

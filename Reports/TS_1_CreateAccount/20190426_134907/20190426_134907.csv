@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_1_CreateAccount,,,2019-04-26 13:49:09,2019-04-26 13:49:12,"2,841s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 13:49:09,2019-04-26 13:49:11,"1,331s",ERROR
+randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:10,2019-04-26 13:49:10,"0,002s",PASSED
+resultWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:10,2019-04-26 13:49:10,"0,001s",PASSED
+randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomCustID(custID),,,2019-04-26 13:49:10,2019-04-26 13:49:10,"0,837s",PASSED
+"println(""... custID oluşturuldu.. custID= "" + randomCustID)",,,2019-04-26 13:49:10,2019-04-26 13:49:10,"0,005s",PASSED
+resultWord = findTestObject(com.turkuaz.test.pkg.getTransactions.writeExcel(randomCustID)),,,2019-04-26 13:49:10,2019-04-26 13:49:11,"0,156s",PASSED
+"println(""... resultWord dosyaya yazıldı.. resultWord= "" + resultWord)",,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,010s",PASSED
+s,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,016s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,067s",ERROR
+randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+resultWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomCustID(custID),,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+"println(""... custID oluşturuldu.. custID= "" + randomCustID)",,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+resultWord = findTestObject(com.turkuaz.test.pkg.getTransactions.writeExcel(randomCustID)),,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,048s",PASSED
+"println(""... resultWord dosyaya yazıldı.. resultWord= "" + resultWord)",,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+s,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,002s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,158s",ERROR
+randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+resultWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomCustID(custID),,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+"println(""... custID oluşturuldu.. custID= "" + randomCustID)",,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+resultWord = findTestObject(com.turkuaz.test.pkg.getTransactions.writeExcel(randomCustID)),,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,037s",PASSED
+"println(""... resultWord dosyaya yazıldı.. resultWord= "" + resultWord)",,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+s,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,106s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,062s",ERROR
+randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,000s",PASSED
+resultWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomCustID(custID),,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+"println(""... custID oluşturuldu.. custID= "" + randomCustID)",,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+resultWord = findTestObject(com.turkuaz.test.pkg.getTransactions.writeExcel(randomCustID)),,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,044s",PASSED
+"println(""... resultWord dosyaya yazıldı.. resultWord= "" + resultWord)",,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+s,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,004s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,270s",ERROR
+randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,000s",PASSED
+resultWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,000s",PASSED
+randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomCustID(custID),,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,021s",PASSED
+"println(""... custID oluşturuldu.. custID= "" + randomCustID)",,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,000s",PASSED
+resultWord = findTestObject(com.turkuaz.test.pkg.getTransactions.writeExcel(randomCustID)),,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,036s",PASSED
+"println(""... resultWord dosyaya yazıldı.. resultWord= "" + resultWord)",,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,000s",PASSED
+s,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 13:49:11,2019-04-26 13:49:12,"0,331s",ERROR
+randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,001s",PASSED
+resultWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 13:49:11,2019-04-26 13:49:11,"0,000s",PASSED
+randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomCustID(custID),,,2019-04-26 13:49:11,2019-04-26 13:49:12,"0,062s",PASSED
+"println(""... custID oluşturuldu.. custID= "" + randomCustID)",,,2019-04-26 13:49:12,2019-04-26 13:49:12,"0,001s",PASSED
+resultWord = findTestObject(com.turkuaz.test.pkg.getTransactions.writeExcel(randomCustID)),,,2019-04-26 13:49:12,2019-04-26 13:49:12,"0,045s",PASSED
+"println(""... resultWord dosyaya yazıldı.. resultWord= "" + resultWord)",,,2019-04-26 13:49:12,2019-04-26 13:49:12,"0,001s",PASSED
+s,,,2019-04-26 13:49:12,2019-04-26 13:49:12,"0,002s",ERROR

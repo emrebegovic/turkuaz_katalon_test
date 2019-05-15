@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_16_InquireBillingAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>877d24b2-bd1b-446c-98aa-a326e3a08eeb</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.billAcctID</defaultValue>
+      <description></description>
+      <id>c0f5a47d-88d6-4b39-b90e-c52a7b2e59c9</id>
+      <masked>false</masked>
+      <name>billAcctID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.custID</defaultValue>
+      <description></description>
+      <id>43789bed-28f7-4d8e-a47c-fe0f36988ff4</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+</TestCaseEntity>

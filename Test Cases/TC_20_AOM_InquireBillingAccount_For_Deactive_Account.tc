@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_20_AOM_InquireBillingAccount_For_Deactive_Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74406ab3-e297-479d-87a4-345e72297ba8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.billAcctID</defaultValue>
+      <description></description>
+      <id>ac3fd233-4eef-4f24-9934-51f6a3bd7a71</id>
+      <masked>false</masked>
+      <name>billAcctID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.custID</defaultValue>
+      <description></description>
+      <id>9949f48b-2278-4f1a-b460-04c97f39507b</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.baStatus</defaultValue>
+      <description></description>
+      <id>10fb7c9d-6a6a-41ff-8898-289f6ebd9c80</id>
+      <masked>false</masked>
+      <name>baStatus</name>
+   </variable>
+</TestCaseEntity>

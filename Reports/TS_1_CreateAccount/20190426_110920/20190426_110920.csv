@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_1_CreateAccount,,,2019-04-26 11:09:23,2019-04-26 11:09:26,"3,382s",PASSED
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 11:09:23,2019-04-26 11:09:26,"3,081s",PASSED
+"println("" ... custID = "" + custID)",,,2019-04-26 11:09:23,2019-04-26 11:09:23,"0,011s",PASSED
+"responseCust = sendRequest(findTestObject(""Customer/CreateCustomer"", [""custID"":custID]))",,,2019-04-26 11:09:23,2019-04-26 11:09:26,"2,694s",PASSED

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_1_CreateAccount,,,2019-04-26 15:23:20,2019-04-26 15:23:23,"3,200s",PASSED
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 15:23:20,2019-04-26 15:23:23,"2,949s",PASSED
+Start listener action : sampleBeforeTestCase,,,2019-04-26 15:23:21,2019-04-26 15:23:21,"0,266s",PASSED
+"println("" ...TC_1 Scriptteyiz... custID = "" + custID)",,,2019-04-26 15:23:21,2019-04-26 15:23:21,"0,003s",PASSED
+"sendRequest(findTestObject(""Customer/CreateCustomer"", [""custID"":custID]))",,,2019-04-26 15:23:21,2019-04-26 15:23:23,"1,702s",PASSED
+Start listener action : sampleAfterTestCase,,,2019-04-26 15:23:23,2019-04-26 15:23:23,"0,004s",PASSED

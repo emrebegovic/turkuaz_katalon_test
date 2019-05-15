@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_26_AOM_UpdateSubsription</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b60953f4-eebd-4e38-9741-b8e7b399ca00</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.subCharName</defaultValue>
+      <description></description>
+      <id>909a56a6-2c9d-4df7-bf83-e839b08e082f</id>
+      <masked>false</masked>
+      <name>subCharName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.subName</defaultValue>
+      <description></description>
+      <id>b76d43f2-e4df-42ad-a6b7-92924ba252eb</id>
+      <masked>false</masked>
+      <name>subName</name>
+   </variable>
+</TestCaseEntity>

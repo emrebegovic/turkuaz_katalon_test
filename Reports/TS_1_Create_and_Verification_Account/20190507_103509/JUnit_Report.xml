@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_1_Create_and_Verification_Account" time="4" tests="2" failures="0" errors="0">
+   <testsuite name="TS_1_Create_and_Verification_Account" tests="2" failures="0" errors="0" time="4" timestamp="2019-05-07 10:35:11" hostname="7713 - 172.30.9.148" id="Test Suites/TS_1_Create_and_Verification_Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\7713\\Katalon Studio\\Turkuaz_Test_Project\\Reports\\TS_1_Create_and_Verification_Account\\20190507_103509"/>
+         <property name="logFiles" value="C:\\Users\\7713\\Katalon Studio\\Turkuaz_Test_Project\\Reports\\TS_1_Create_and_Verification_Account\\20190507_103509\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="7713 - 172.30.9.148"/>
+         <property name="hostAddress" value="172.30.9.148"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+      </properties>
+      <testcase name="Test Cases/TC_01_CreateCustomer_OK" classname="Test Cases/TC_01_CreateCustomer_OK" status="PASSED">
+         <system-out><![CDATA[2019-05-07 10:35:11 - [TEST_CASE][PASSED] - Test Cases/TC_01_CreateCustomer_OK: Test Cases/TC_01_CreateCustomer_OK
+
+2019-05-07 10:35:12 - [TEST_STEP][PASSED] - custID = com.turkuaz.test.pkg.getTransactions.getRandomID(): com.turkuaz.test.pkg.getTransactions.getRandomID is PASSED
+
+2019-05-07 10:35:12 - [MESSAGE][PASSED] - com.turkuaz.test.pkg.getTransactions.getRandomID is PASSED
+
+2019-05-07 10:35:12 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Customer/CreateCustomer", ["custID":custID])): Send request successfully
+
+2019-05-07 10:35:14 - [MESSAGE][INFO] - HAR: C:\Users\7713\Katalon Studio\Turkuaz_Test_Project\Reports\TS_1_Create_and_Verification_Account\20190507_103509\requests\main\null.har
+
+2019-05-07 10:35:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-07 10:35:15 - [TEST_STEP][PASSED] - println(response1.getResponseText()): null
+
+2019-05-07 10:35:15 - [TEST_STEP][PASSED] - println("
+custID : " + custID + "
+"): null
+
+2019-05-07 10:35:15 - [TEST_STEP][PASSED] - println("
+SELECT * FROM CUST WHERE EXT_CUST_ID = " + custID + ";"): null
+
+2019-05-07 10:35:15 - [TEST_STEP][PASSED] - FaultMessageControl = response1.getResponseText(): null
+
+2019-05-07 10:35:15 - [TEST_STEP][PASSED] - if (!(FaultMessageControl.contains("<FAULT_CODE>"))): null
+
+2019-05-07 10:35:15 - [TEST_STEP][PASSED] - println("
+***** B A Ş A R I L I *****
+"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_02_CreateBillingAccount_OK" classname="Test Cases/TC_02_CreateBillingAccount_OK" status="PASSED">
+         <system-out><![CDATA[2019-05-07 10:35:15 - [TEST_CASE][PASSED] - Test Cases/TC_02_CreateBillingAccount_OK: Test Cases/TC_02_CreateBillingAccount_OK
+
+2019-05-07 10:35:15 - [TEST_STEP][PASSED] - custID = com.turkuaz.test.pkg.getTransactions.getRandomID(): com.turkuaz.test.pkg.getTransactions.getRandomID is PASSED
+
+2019-05-07 10:35:15 - [MESSAGE][PASSED] - com.turkuaz.test.pkg.getTransactions.getRandomID is PASSED
+
+2019-05-07 10:35:15 - [TEST_STEP][PASSED] - billAcctID = com.turkuaz.test.pkg.getTransactions.getRandomID(): com.turkuaz.test.pkg.getTransactions.getRandomID is PASSED
+
+2019-05-07 10:35:15 - [MESSAGE][PASSED] - com.turkuaz.test.pkg.getTransactions.getRandomID is PASSED
+
+2019-05-07 10:35:15 - [TEST_STEP][PASSED] - println("billAcctID : " + billAcctID): null
+
+2019-05-07 10:35:15 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Customer/CreateCompositeCustomer", ["custID":custID, "billAcctID":billAcctID])): Send request successfully
+
+2019-05-07 10:35:16 - [MESSAGE][INFO] - HAR: C:\Users\7713\Katalon Studio\Turkuaz_Test_Project\Reports\TS_1_Create_and_Verification_Account\20190507_103509\requests\main\null.har
+
+2019-05-07 10:35:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-07 10:35:16 - [TEST_STEP][PASSED] - println(response1.getResponseText()): null
+
+2019-05-07 10:35:16 - [TEST_STEP][PASSED] - FaultMessageControl = response1.getResponseText(): null
+
+2019-05-07 10:35:16 - [TEST_STEP][PASSED] - com.oracle.connection.pkg.oracleConnection.closeDatabaseConnection(): com.oracle.connection.pkg.oracleConnection.closeDatabaseConnection is PASSED
+
+2019-05-07 10:35:16 - [MESSAGE][PASSED] - com.oracle.connection.pkg.oracleConnection.closeDatabaseConnection is PASSED
+
+2019-05-07 10:35:16 - [TEST_STEP][PASSED] - if (!(FaultMessageControl.contains("<FAULT_CODE>"))): null
+
+2019-05-07 10:35:16 - [TEST_STEP][PASSED] - println("
+***** B A Ş A R I L I *****
+"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-07 10:35:11 - [TEST_SUITE][PASSED] - TS_1_Create_and_Verification_Account: Test Cases/TC_02_CreateBillingAccount_OK]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

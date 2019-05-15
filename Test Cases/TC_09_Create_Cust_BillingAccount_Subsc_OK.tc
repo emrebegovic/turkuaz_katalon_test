@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_09_Create_Cust_BillingAccount_Subsc_OK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecb4fd6f-ef2d-4f0e-a30d-aa5ef6c34d71</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.custID</defaultValue>
+      <description></description>
+      <id>338ea573-3311-4d7e-bc38-c719ce6f5dc1</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.billAcctID</defaultValue>
+      <description></description>
+      <id>c2c47901-3812-4fea-9156-b5b10aa9794f</id>
+      <masked>false</masked>
+      <name>billAcctID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.subID</defaultValue>
+      <description></description>
+      <id>61bbad98-c797-4594-b0fd-a1408b408c08</id>
+      <masked>false</masked>
+      <name>subID</name>
+   </variable>
+</TestCaseEntity>

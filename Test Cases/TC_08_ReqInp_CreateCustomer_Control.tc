@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_08_ReqInp_CreateCustomer_Control</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0578a22b-cf54-4f13-8d34-075aee40e657</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.custID</defaultValue>
+      <description></description>
+      <id>69b03de0-e1b0-4b36-a732-92b80637ba38</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_06_CreateCompositCustomer_InquireBillingAccount_OK</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9538c5a0-e926-423f-bf85-f1ca89730074</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.custID</defaultValue>
+      <description></description>
+      <id>489acd1f-8657-4681-9c10-5873f8656415</id>
+      <masked>false</masked>
+      <name>custID</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.billAcctID</defaultValue>
+      <description></description>
+      <id>042c1afe-8d48-4aee-a7aa-c038383c5fe8</id>
+      <masked>false</masked>
+      <name>billAcctID</name>
+   </variable>
+</TestCaseEntity>

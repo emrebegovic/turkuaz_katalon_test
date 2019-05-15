@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_1_CreateAccount" time="5" tests="1" failures="0" errors="1">
+   <testsuite name="TS_1_CreateAccount" tests="1" failures="0" errors="1" time="5" timestamp="2019-04-29 13:31:42" hostname="CANSU - 172.30.9.72" id="Test Suites/TS_1_CreateAccount">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\CANSU\\Katalon Studio\\Turkuaz_Test_Project\\Reports\\TS_1_CreateAccount\\20190429_133141"/>
+         <property name="logFiles" value="C:\\Users\\CANSU\\Katalon Studio\\Turkuaz_Test_Project\\Reports\\TS_1_CreateAccount\\20190429_133141\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="CANSU - 172.30.9.72"/>
+         <property name="hostAddress" value="172.30.9.72"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TC_1_CreateAccount" classname="Test Cases/TC_1_CreateAccount" status="PASSED">
+         <system-out><![CDATA[2019-04-29 13:31:42 - [TEST_CASE][PASSED] - Test Cases/TC_1_CreateAccount: Test Cases/TC_1_CreateAccount
+
+2019-04-29 13:31:43 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-04-29 13:31:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-29 13:31:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-04-29 13:31:43 - [TEST_STEP][PASSED] - randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-29 13:31:43 - [TEST_STEP][PASSED] - randomBillAcctID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-29 13:31:43 - [TEST_STEP][PASSED] - writeRandomID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-29 13:31:43 - [TEST_STEP][PASSED] - readRandomID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-29 13:31:43 - [TEST_STEP][PASSED] - randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomID(custID): com.turkuaz.test.pkg.getTransactions.getRandomID is PASSED
+
+2019-04-29 13:31:43 - [MESSAGE][PASSED] - com.turkuaz.test.pkg.getTransactions.getRandomID is PASSED
+
+2019-04-29 13:31:43 - [TEST_STEP][PASSED] - println("..................sampleBeforeTestCase Listenerdayız.. custID oluşturuldu.. custID= " + randomCustID): null
+
+2019-04-29 13:31:43 - [TEST_STEP][PASSED] - com.turkuaz.test.pkg.getTransactions.writeExcelCustID(randomCustID): com.turkuaz.test.pkg.getTransactions.writeExcelCustID is PASSED
+
+2019-04-29 13:31:44 - [MESSAGE][PASSED] - com.turkuaz.test.pkg.getTransactions.writeExcelCustID is PASSED
+
+2019-04-29 13:31:44 - [TEST_STEP][PASSED] - randomBillAcctID = com.turkuaz.test.pkg.getTransactions.getRandomID(billAcctID): com.turkuaz.test.pkg.getTransactions.getRandomID is PASSED
+
+2019-04-29 13:31:44 - [MESSAGE][PASSED] - com.turkuaz.test.pkg.getTransactions.getRandomID is PASSED
+
+2019-04-29 13:31:44 - [TEST_STEP][PASSED] - com.turkuaz.test.pkg.getTransactions.writeExcelCustID(randomBillAcctID): com.turkuaz.test.pkg.getTransactions.writeExcelCustID is PASSED
+
+2019-04-29 13:31:44 - [MESSAGE][PASSED] - com.turkuaz.test.pkg.getTransactions.writeExcelCustID is PASSED
+
+2019-04-29 13:31:44 - [TEST_STEP][PASSED] - println("..................sampleBeforeTestCase Listenerdayız.. billacctID oluşturuldu.. billacctID= " + randomBillAcctID): null
+
+2019-04-29 13:31:44 - [TEST_STEP][PASSED] - println(" ...TC_1 Scriptteyiz... eski custID = " + custID): null
+
+2019-04-29 13:31:44 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Customer/CreateCustomer", ["custID":custID])): Send request successfully
+
+2019-04-29 13:31:45 - [MESSAGE][INFO] - HAR: C:\Users\CANSU\Katalon Studio\Turkuaz_Test_Project\Reports\TS_1_CreateAccount\20190429_133141\requests\main\0.har
+
+2019-04-29 13:31:45 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 13:31:45 - [TEST_STEP][PASSED] - println(" ...TC_1 Scriptteyiz... GlobalVariable.custID = " + custID): null
+
+2019-04-29 13:31:45 - [TEST_STEP][PASSED] - xml1 = responseBodyContent: null
+
+2019-04-29 13:31:46 - [TEST_STEP][PASSED] - dataValue = XmlSlurper().parseText(xml1): null
+
+2019-04-29 13:31:46 - [TEST_STEP][PASSED] - custID1 = childNodes().next(): null
+
+2019-04-29 13:31:46 - [TEST_STEP][PASSED] - custID = custID1: null
+
+2019-04-29 13:31:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-29 13:31:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - println("... CreateCustomer>Verificationdayız..  custID= " + custID): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_2_CreateBillingAccount" classname="Test Cases/TC_2_CreateBillingAccount" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC_2_CreateBillingAccount FAILED.
+Reason:
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 17; The prefix &quot;SOAP-ENV&quot; for element &quot;SOAP-ENV:Fault&quot; is not bound.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at TC_2_CreateBillingAccount.run(TC_2_CreateBillingAccount:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556533901198.run(TempTestSuite1556533901198.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-29 13:31:48 - [TEST_CASE][ERROR] - Test Cases/TC_2_CreateBillingAccount: Test Cases/TC_2_CreateBillingAccount FAILED.
+Reason:
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 17; The prefix "SOAP-ENV" for element "SOAP-ENV:Fault" is not bound.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at TC_2_CreateBillingAccount.run(TC_2_CreateBillingAccount:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556533901198.run(TempTestSuite1556533901198.groovy:35)
+
+
+2019-04-29 13:31:48 - [TEST_STEP][ERROR] - Start listener action : sampleBeforeTestCase: com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.turkuaz.test.pkg.getTransactions.getRandomID() is applicable for argument types: (groovy.util.slurpersupport.Node) values: [groovy.util.slurpersupport.Node@6f49d153]
+Possible solutions: getRandomID(java.lang.String)
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - randomBillAcctID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - writeRandomID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - readRandomID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-29 13:31:48 - [TEST_STEP][ERROR] - randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomID(custID): com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.turkuaz.test.pkg.getTransactions.getRandomID() is applicable for argument types: (groovy.util.slurpersupport.Node) values: [groovy.util.slurpersupport.Node@6f49d153]
+Possible solutions: getRandomID(java.lang.String)
+
+2019-04-29 13:31:48 - [MESSAGE][ERROR] - No signature of method: com.turkuaz.test.pkg.getTransactions.getRandomID() is applicable for argument types: (groovy.util.slurpersupport.Node) values: [groovy.util.slurpersupport.Node@6f49d153]
+Possible solutions: getRandomID(java.lang.String)
+
+2019-04-29 13:31:48 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: com.turkuaz.test.pkg.getTransactions.getRandomID() is applicable for argument types: (groovy.util.slurpersupport.Node) values: [groovy.util.slurpersupport.Node@6f49d153]
+Possible solutions: getRandomID(java.lang.String)
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("BillingAccount/CreateBillingAccount", ["billAcctID":billAcctID])): Send request successfully
+
+2019-04-29 13:31:48 - [MESSAGE][INFO] - HAR: C:\Users\CANSU\Katalon Studio\Turkuaz_Test_Project\Reports\TS_1_CreateAccount\20190429_133141\requests\main\1.har
+
+2019-04-29 13:31:48 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - println("TC2 Scriptteyiz:  custID" + custID): null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - xml2 = responseBodyContent: null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - println("TC2 Scriptteyiz:  custID" + custID): null
+
+2019-04-29 13:31:48 - [TEST_STEP][ERROR] - dataValue2 = XmlSlurper().parseText(xml2): dataValue2 = XmlSlurper().parseText(xml2) FAILED.
+Reason:
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 17; The prefix "SOAP-ENV" for element "SOAP-ENV:Fault" is not bound.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at TC_2_CreateBillingAccount.run(TC_2_CreateBillingAccount:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556533901198.run(TempTestSuite1556533901198.groovy:35)
+
+
+2019-04-29 13:31:48 - [MESSAGE][ERROR] - dataValue2 = XmlSlurper().parseText(xml2) FAILED.
+Reason:
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 17; The prefix "SOAP-ENV" for element "SOAP-ENV:Fault" is not bound.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at TC_2_CreateBillingAccount.run(TC_2_CreateBillingAccount:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556533901198.run(TempTestSuite1556533901198.groovy:35)
+
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-04-29 13:31:48 - [TEST_STEP][PASSED] - println("... CreateCustomer>Verificationdayız..  custID= " + custID): null]]></system-out>
+         <system-err><![CDATA[2019-04-29 13:31:48 - [TEST_CASE][ERROR] - Test Cases/TC_2_CreateBillingAccount: Test Cases/TC_2_CreateBillingAccount FAILED.
+Reason:
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 17; The prefix "SOAP-ENV" for element "SOAP-ENV:Fault" is not bound.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at TC_2_CreateBillingAccount.run(TC_2_CreateBillingAccount:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556533901198.run(TempTestSuite1556533901198.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-29 13:31:42 - [TEST_SUITE][ERROR] - TS_1_CreateAccount: Test Cases/TC_2_CreateBillingAccount FAILED.
+Reason:
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 17; The prefix "SOAP-ENV" for element "SOAP-ENV:Fault" is not bound.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at TC_2_CreateBillingAccount.run(TC_2_CreateBillingAccount:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556533901198.run(TempTestSuite1556533901198.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-29 13:31:42 - [TEST_SUITE][ERROR] - TS_1_CreateAccount: Test Cases/TC_2_CreateBillingAccount FAILED.
+Reason:
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 17; The prefix "SOAP-ENV" for element "SOAP-ENV:Fault" is not bound.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at TC_2_CreateBillingAccount.run(TC_2_CreateBillingAccount:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556533901198.run(TempTestSuite1556533901198.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

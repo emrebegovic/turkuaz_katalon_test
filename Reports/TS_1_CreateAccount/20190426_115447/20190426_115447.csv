@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_1_CreateAccount,,,2019-04-26 11:54:49,2019-04-26 11:54:51,"1,781s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 11:54:49,2019-04-26 11:54:50,"1,321s",ERROR
+randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 11:54:49,2019-04-26 11:54:49,"0,002s",PASSED
+resultWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 11:54:49,2019-04-26 11:54:49,"0,001s",PASSED
+randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomCustID(custID),,,2019-04-26 11:54:49,2019-04-26 11:54:50,"0,833s",PASSED
+"println(""... custID oluşturuldu.. custID= "" + randomCustID)",,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,003s",PASSED
+resultWord = findTestObject(com.turkuaz.test.pkg.getTransactions.writeExcel(randomCustID)),,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,166s",PASSED
+"println(""... resultWord dosyaya yazıldı.. resultWord= "" + resultWord)",,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,007s",PASSED
+s,,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,015s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,071s",ERROR
+randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,002s",PASSED
+resultWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,001s",PASSED
+randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomCustID(custID),,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,001s",PASSED
+"println(""... custID oluşturuldu.. custID= "" + randomCustID)",,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,001s",PASSED
+resultWord = findTestObject(com.turkuaz.test.pkg.getTransactions.writeExcel(randomCustID)),,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,048s",PASSED
+"println(""... resultWord dosyaya yazıldı.. resultWord= "" + resultWord)",,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,001s",PASSED
+s,,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,002s",ERROR
+,,,,,,
+Test Cases/TC_1_CreateAccount,,,2019-04-26 11:54:50,2019-04-26 11:54:51,"0,109s",ERROR
+randomCustID = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,001s",PASSED
+resultWord = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,001s",PASSED
+randomCustID = com.turkuaz.test.pkg.getTransactions.getRandomCustID(custID),,,2019-04-26 11:54:50,2019-04-26 11:54:50,"0,001s",PASSED
+"println(""... custID oluşturuldu.. custID= "" + randomCustID)",,,2019-04-26 11:54:51,2019-04-26 11:54:51,"0,000s",PASSED
+resultWord = findTestObject(com.turkuaz.test.pkg.getTransactions.writeExcel(randomCustID)),,,2019-04-26 11:54:51,2019-04-26 11:54:51,"0,039s",PASSED
+"println(""... resultWord dosyaya yazıldı.. resultWord= "" + resultWord)",,,2019-04-26 11:54:51,2019-04-26 11:54:51,"0,001s",PASSED
+s,,,2019-04-26 11:54:51,2019-04-26 11:54:51,"0,054s",ERROR

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_1_Create_and_Verification_Account,,,,2019-05-07 10:35:11,2019-05-07 10:35:16,4.977s,PASSED
+,,,,,,,
+Test Cases/TC_01_CreateCustomer_OK,,,,2019-05-07 10:35:11,2019-05-07 10:35:15,3.343s,PASSED
+custID = com.turkuaz.test.pkg.getTransactions.getRandomID(),,,,2019-05-07 10:35:12,2019-05-07 10:35:12,0.031s,PASSED
+"response1 = sendRequest(findTestObject(""Customer/CreateCustomer"", [""custID"":custID]))",,,,2019-05-07 10:35:12,2019-05-07 10:35:15,2.506s,PASSED
+println(response1.getResponseText()),,,,2019-05-07 10:35:15,2019-05-07 10:35:15,0.009s,PASSED
+"println(""
+custID : "" + custID + ""
+"")",,,,2019-05-07 10:35:15,2019-05-07 10:35:15,0.001s,PASSED
+"println(""
+SELECT * FROM CUST WHERE EXT_CUST_ID = "" + custID + "";"")",,,,2019-05-07 10:35:15,2019-05-07 10:35:15,0.001s,PASSED
+FaultMessageControl = response1.getResponseText(),,,,2019-05-07 10:35:15,2019-05-07 10:35:15,0.001s,PASSED
+"if (!(FaultMessageControl.contains(""<FAULT_CODE>"")))",,,,2019-05-07 10:35:15,2019-05-07 10:35:15,0.005s,PASSED
+,,,,,,,
+Test Cases/TC_02_CreateBillingAccount_OK,,,,2019-05-07 10:35:15,2019-05-07 10:35:16,1.315s,PASSED
+custID = com.turkuaz.test.pkg.getTransactions.getRandomID(),,,,2019-05-07 10:35:15,2019-05-07 10:35:15,0.002s,PASSED
+billAcctID = com.turkuaz.test.pkg.getTransactions.getRandomID(),,,,2019-05-07 10:35:15,2019-05-07 10:35:15,0.001s,PASSED
+"println(""billAcctID : "" + billAcctID)",,,,2019-05-07 10:35:15,2019-05-07 10:35:15,0.003s,PASSED
+"response1 = sendRequest(findTestObject(""Customer/CreateCompositeCustomer"", [""custID"":custID, ""billAcctID"":billAcctID]))",,,,2019-05-07 10:35:15,2019-05-07 10:35:16,1.082s,PASSED
+println(response1.getResponseText()),,,,2019-05-07 10:35:16,2019-05-07 10:35:16,0.003s,PASSED
+FaultMessageControl = response1.getResponseText(),,,,2019-05-07 10:35:16,2019-05-07 10:35:16,0.003s,PASSED
+com.oracle.connection.pkg.oracleConnection.closeDatabaseConnection(),,,,2019-05-07 10:35:16,2019-05-07 10:35:16,0.012s,PASSED
+"if (!(FaultMessageControl.contains(""<FAULT_CODE>"")))",,,,2019-05-07 10:35:16,2019-05-07 10:35:16,0.002s,PASSED
